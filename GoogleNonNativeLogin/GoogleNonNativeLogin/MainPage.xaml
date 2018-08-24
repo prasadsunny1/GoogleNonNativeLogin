@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:GoogleNonNativeLogin"
+             x:Class="GoogleNonNativeLogin.MainPage">
+
+    <ScrollView>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+            <StackLayout VerticalOptions="Center" Grid.Row="0">
+                <!-- Place new controls here -->
+                <Image x:Name="xProfilePicure" Source="https://api.adorable.io/avatars/100/abott@adorable.png"
+               HeightRequest="100" WidthRequest="100" HorizontalOptions="Center"></Image>
+                <Label x:Name="xProfileName" Text="Name" HorizontalOptions="Center"/>
+                <Label x:Name="xProfileEmail" Text="Email" HorizontalOptions="Center"/>
+                <Label x:Name="xProfileOtherData" Text="Other Data" HorizontalOptions="Center"/>
+            </StackLayout>
+
+            <StackLayout Grid.Row="1">
+                <StackLayout Orientation="Horizontal" Spacing="10">
+                    <Button Text="Google SignIn" Pressed="GoogleSignInbuttonPressed" HorizontalOptions="FillAndExpand"></Button>
+                    <Button Text="Google SignOut" Pressed="GoogleSignOutbuttonPressed" HorizontalOptions="FillAndExpand"></Button>
+                </StackLayout> <StackLayout Orientation="Horizontal" Spacing="10">
+                    <Button Text="FB SignIn" Pressed="FBSignInbuttonPressed" HorizontalOptions="FillAndExpand"></Button>
+                    <Button Text="FB SignOut" Pressed="FBSignOutnbuttonPressed" HorizontalOptions="FillAndExpand"></Button>
+                </StackLayout> <StackLayout Orientation="Horizontal" Spacing="10">
+                    <Button Text="Twitter SignIn" Pressed="TwitterSignInbuttonPressed" HorizontalOptions="FillAndExpand"></Button>
+                    <Button Text="Twitter SignOut"  Pressed="TwitterSignOutnbuttonPressed" HorizontalOptions="FillAndExpand"></Button>
+                </StackLayout>
+            </StackLayout>
+        </Grid>
+    </ScrollView>
+
+</ContentPage>
