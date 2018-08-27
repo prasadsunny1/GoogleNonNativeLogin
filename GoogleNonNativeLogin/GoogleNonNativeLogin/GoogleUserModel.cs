@@ -6,7 +6,7 @@ using Newtonsoft.Json;
 namespace GoogleNonNativeLogin
 {
     [JsonObject]
-    public class User
+    public class GoogleUserModel
     {
         [JsonProperty("id")]
         public string Id { get; set; }

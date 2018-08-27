@@ -7,7 +7,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoogleNonNativeLogin.Androi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoogleNonNativeLogin.iOS", "GoogleNonNativeLogin\GoogleNonNativeLogin.iOS\GoogleNonNativeLogin.iOS.csproj", "{5B98B62D-1398-4D20-AD93-ACE091B92B2C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoogleNonNativeLogin", "GoogleNonNativeLogin\GoogleNonNativeLogin\GoogleNonNativeLogin.csproj", "{F5D24724-9F4D-4A8B-9F19-042122EC8A43}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GoogleNonNativeLogin", "GoogleNonNativeLogin\GoogleNonNativeLogin\GoogleNonNativeLogin.csproj", "{F5D24724-9F4D-4A8B-9F19-042122EC8A43}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{61EA3D67-07AA-4FE6-9729-452B2415DADC}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
